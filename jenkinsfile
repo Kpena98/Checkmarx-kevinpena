@@ -11,7 +11,7 @@ pipeline {
         }
         stage('git') {
             steps {
-                git branch: 'main', url: 'https://arpkk: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@github.com/arpkk/Jmeter.git'
+                echo "HOLA MUNDO"
             }
         }
         stage('build') {
